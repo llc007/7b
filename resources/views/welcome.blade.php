@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Notas 7°B (Poligonos y Circulo)
+                    Notas 7°B
                 </div>
 
                 <div class="links">
