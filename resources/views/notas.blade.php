@@ -149,11 +149,11 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach($notas as $nota)
+                    @foreach($lista as $l)
                     <tr>
-                        <td>{{$nota->lista}}</td>
-                        <td>{{$nota->nombre}}</td>
-                        <td>{{$nota->nota}}</td>
+                        <td>{{$l}}</td>
+                        <td>{{$nombres[$loop->index]}}</td>
+                        <td>{{$notas[$loop->index]}}</td>
                     </tr>
                     @endforeach
                     </tbody>

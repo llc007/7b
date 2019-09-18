@@ -9,9 +9,11 @@ class NotasController extends Controller
 {
     //
     public function index(){
-        $notas =Notas::all();
+        $lista = [1,2,3];
+        $nombres = ["n1","n2","n3"];
+        $notas = [1.0,1.2,1.3];
 
 
-        return view('notas', compact('notas'));
+        return view('notas', compact('lista','nombres','notas'));
     }
 }
