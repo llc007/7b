@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/notas', function () {
+    return view('notas');
+})->name('notas');
