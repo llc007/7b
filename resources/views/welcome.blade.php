@@ -86,7 +86,7 @@
 
                 <div class="links">
                     <a href="{{route('notas')}}">Ver notas</a>
-                    <a href="https://laracasts.com">Descargar pauta</a>
+                    <a href="#">Descargar pauta</a>
                 </div>
             </div>
         </div>

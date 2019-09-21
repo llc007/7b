@@ -143,7 +143,7 @@
                 <table class="table table-striped table-sm">
                     <thead>
                     <tr>
-                        <th>#</th>
+                        <th>N° Lista</th>
                         <th>Nombre</th>
                         <th>Nota</th>
                     </tr>
