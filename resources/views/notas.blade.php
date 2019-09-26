@@ -159,6 +159,10 @@
                     </tbody>
                 </table>
             </div>
+            <div>
+                <h2>Promedio notas</h2>
+                <h2></h2>
+            </div>
         </main>
     </div>
 </div>

@@ -9,6 +9,10 @@ class NotasController extends Controller
 {
     //
     public function index(){
+        $notas = Notas::all();
+        dd($notas[0]->nombre);
+
+
         $lista =[];
         $nombres = ["Aleshna Adriazola",
             "Francisca Alvarado",
